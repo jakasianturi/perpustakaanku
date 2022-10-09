@@ -1,0 +1,28 @@
+// Activity
+#activity {
+    .card {
+        img {
+            border-radius: 15px;
+        }
+    }
+}
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    a {
+        width: 30%;
+        img {
+            max-height: 150px;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    #activity {
+        .activity-list {
+            margin-top: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Override Variables
+@import "variables";
+// Bootstrap
+@import "bootstrap";
+
+// SB Admin 2
+@import "sb-admin-2.scss";
+
+// Vendor
+@import "~croppie/croppie";
+@import "~summernote/dist/summernote-bs4";
+@import "~izitoast/dist/css/iziToast";
+@import "~select2/dist/css/select2";
+
+// Custom Style
+@import "global.scss";
+@import "utilities.scss";

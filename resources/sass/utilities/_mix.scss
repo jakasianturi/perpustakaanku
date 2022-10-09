@@ -1,0 +1,15 @@
+// Divider
+span.divider {
+    display: flex;
+    width: 100px;
+    height: 4px;
+    border-radius: 50rem;
+}
+
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+
+.text-black {
+    color: rgba($color: #000000, $alpha: 0.7);
+}

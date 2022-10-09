@@ -1,0 +1,36 @@
+// Footer
+#footer {
+    .iconFooterList {
+        line-height: 1.5rem;
+    }
+    .socialIconFooter {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        vertical-align: middle;
+        color: rgba($color: $black, $alpha: 0.5);
+        background-color: rgba($color: #eeeeee, $alpha: 0.85);
+        cursor: pointer;
+        &.fa-facebook-f:hover {
+            background: #3b5998;
+            color: $white;
+        }
+        &.fa-twitter:hover {
+            background: #1da1f2;
+            color: $white;
+        }
+        &.fa-instagram:hover {
+            background: radial-gradient(
+                circle at 30% 107%,
+                #fdf497 0%,
+                #fdf497 5%,
+                #fd5949 45%,
+                #d6249f 60%,
+                #285aeb 90%
+            );
+            color: $white;
+        }
+    }
+}

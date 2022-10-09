@@ -1,0 +1,48 @@
+// Override Bootstrap default variables here
+
+// Colors
+$blue: #008bf5 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #e74a3b !default;
+$orange: #fd7e14 !default;
+$yellow: #ffbd59 !default;
+$green: #04a207 !default;
+$teal: #20c9a6 !default;
+$cyan: #36b9cc !default;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// Custom Colors
+$denim: #1e3261 !default;
+$gray-primary: #f9fbfc;
+$gray-secondary: #f7fafc;
+$body-text: #333333;
+
+// Bootstrap Color Override
+$primary: $green !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: #333938 !default;
+
+// Body
+$body-bg: #ffffff;
+$body-color: #242827 !default;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;

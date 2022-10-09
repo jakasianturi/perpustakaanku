@@ -1,0 +1,17 @@
+#book-detail {
+    .book-cover {
+        img {
+            width: 100%;
+            border-radius: 1rem;
+        }
+    }
+    table.book-detail-list {
+        th,
+        td {
+            padding: 0;
+        }
+        .label {
+            font-weight: 500;
+        }
+    }
+}
