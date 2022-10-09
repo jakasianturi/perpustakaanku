@@ -18,8 +18,8 @@ class SetupSeeder extends Seeder
     public function run()
     {
         User::insert([
-            'name' => 'Admin',
-            'email' => 'admin@mail.com',
+            'name' => 'Jaka Sianturi',
+            'email' => 'jakasianturi00@gmail.com',
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'user_role' => 'admin',
@@ -33,15 +33,15 @@ class SetupSeeder extends Seeder
         ]);
 
         Setting::insert([
-            'site_name' => 'Perpustakaan Bapele',
-            'site_footer' => 'Perpustakaan Bapele',
+            'site_name' => 'Perpustakaanku',
+            'site_footer' => 'Perpustakaanku',
             'logo' => '',
             'favicon' => '',
             'ga_code' => '',
             'social_facebook' => '#',
             'social_twitter' => '#',
             'social_instagram' => '#',
-            'email' => 'username@mail.com',
+            'email' => 'jakasianturi00@gmail.com',
             'phone' => '',
             'google_map' => '',
             'address' => '',
