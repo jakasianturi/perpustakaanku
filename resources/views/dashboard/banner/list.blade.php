@@ -81,7 +81,7 @@ $(document).ready(function() {
         data: 'background',
         name: 'background',
         render: function(name, type, row) {
-            return '<img class="w-50 rounded" src="/storage/uploads/'+name+'"/>';
+            return '<img class="w-50 rounded" src="{{ url('/') }}/storage/uploads/' + name +'"/>';
         }
       },
       {
