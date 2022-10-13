@@ -29,6 +29,9 @@
     <!-- Icons -->
     <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
 
+    <!-- Summernote -->
+    <link href="{{ asset('vendor/summernote/dist/summernote-bs4.min.css') }}" rel="stylesheet" />
+
     <!-- Datatables -->
     <link href="{{ asset('vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet" />
 
@@ -330,13 +333,13 @@
 
     <!-- All Script from Vendor -->
     <script src="{{ asset('js/vendor.js') }}"></script>
-    <script src="{{ asset('vendor/summernote/summernote-bs4.min.js') }}"></script>
-    <script src="{{ asset('vendor/summernote/lang/summernote-id-ID.min.js') }}"></script>
+    <script src="{{ asset('vendor/summernote/dist/summernote-bs4.min.js') }}"></script>
+    <script src="{{ asset('vendor/summernote/dist/lang/summernote-id-ID.min.js') }}"></script>
     <script src="{{ asset('vendor/chart.js/Chart.min.js') }}"></script>
     <script src="{{ asset('vendor/iziToast/js/iziToast.min.js') }}"></script>
     <script src="{{ asset('vendor/select2/select2.min.js') }}"></script>
     <script src="{{ asset('vendor/select2/i18n/id.js') }}"></script>
-    <script src="{{ asset('/vendor/laravel-filemanager/js/stand-alone-button.js') }}"></script>
+    <script src="{{ asset('vendor/laravel-filemanager/js/stand-alone-button.js') }}"></script>
 
     <!-- SB Admin 2 -->
     <script src="{{ asset('vendor/sb-admin-2/js/sb-admin-2.min.js') }}"></script>

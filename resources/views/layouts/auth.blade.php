@@ -10,6 +10,9 @@
 
     <title>{{ isset($setting->site_name) ? $setting->site_name : '' }}</title>
 
+    <!-- Favicon -->
+    <link rel="icon" href="{{ isset($setting->favicon) ? asset('storage/uploads/' . $setting->favicon) : '' }}">
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
